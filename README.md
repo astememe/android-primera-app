@@ -4,11 +4,44 @@ Aplicación **Android** que implementa un sistema básico de **registro** e **in
 La aplicación permite **registrar usuarios**, **validar credenciales** y **mostrar un saludo personalizado** al iniciar sesión.
 
 Incluye las siguientes pantallas:
-- **SplashScreen:** pantalla de bienvenida con animación.  
-![Splash de la app](README_images/splash.PNG)
-![Formulario de registro](README_images/register_form.PNG)
-![Inicio de sesión](README_images/login_normal.PNG)
-![Pantalla principal](README_images/main.PNG)
+
+---
+
+### **SplashScreen**
+Pantalla de bienvenida con animación.  
+<p align="center">
+  <img src="README_images/splash.PNG" alt="Splash de la app" width="250">
+</p>
+
+---
+
+### **RegistrarActivity**
+Formulario de registro con validaciones.  
+
+<p align="center">
+  <img src="README_images/registro_normal.PNG" alt="Registro normal" width="250">
+  <img src="README_images/registro_error.PNG" alt="Registro con error" width="250">
+</p>
+
+---
+
+### **LoginActivity**
+Pantalla de inicio de sesión con comprobación de datos guardados.  
+
+<p align="center">
+  <img src="README_images/login_normal.PNG" alt="Inicio de sesión normal" width="250">
+  <img src="README_images/login_error.PNG" alt="Inicio de sesión con error" width="250">
+</p>
+
+---
+
+### **MainActivity**
+Muestra un saludo con el nombre del usuario.  
+<p align="center">
+  <img src="README_images/main.PNG" alt="Pantalla principal" width="250">
+</p>
+
+---
 
 Proyecto desarrollado como práctica para la **creación de interfaces**, **validación de datos** y **manejo de sesiones** en Android.
 
