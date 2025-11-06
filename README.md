@@ -5,13 +5,13 @@ La aplicación permite **registrar usuarios**, **validar credenciales** y **most
 
 Incluye las siguientes pantallas:
 - **SplashScreen:** pantalla de bienvenida con animación.  
-![Splash de la app](https://github.com/astememe/android-primera-app/blob/master/README_images/splash.PNG)
+![Splash de la app](https://raw.githubusercontent.com/astememe/android-primera-app/master/README_images/splash.PNG)
 - **RegistrarActivity:** formulario de registro con validaciones.  
-![Formulario de registro](https://raw.githubusercontent.com/astememe/android-primera-app/master/README_images/register_form.png)
+![Formulario de registro](https://raw.githubusercontent.com/astememe/android-primera-app/master/README_images/register_form.PNG)
 - **LoginActivity:** inicio de sesión con comprobación de datos guardados.  
-![Inicio de sesión (normal)](https://raw.githubusercontent.com/astememe/android-primera-app/master/README_images/login_normal.png)
+![Inicio de sesión (normal)](https://raw.githubusercontent.com/astememe/android-primera-app/master/README_images/login_normal.PNG)
 - **MainActivity:** muestra un saludo con el nombre del usuario.  
-![Pantalla principal](https://raw.githubusercontent.com/astememe/android-primera-app/master/README_images/main.png)
+![Pantalla principal](https://raw.githubusercontent.com/astememe/android-primera-app/master/README_images/main.PNG)
 
 Proyecto desarrollado como práctica para la **creación de interfaces**, **validación de datos** y **manejo de sesiones** en Android.
 
