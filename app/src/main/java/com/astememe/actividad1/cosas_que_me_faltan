@@ -1,0 +1,9 @@
+Intent intentMain = new Intent(Login.this, MainActivity.class);
+                    long finalTime = System.currentTimeMillis();
+                    intentMain.putExtra("nombre", String.value(.getText());
+                    startActivity(intentMain);
+
+
+Bundle bundle = getIntent().getExtras();
+        String nombre = String.valueOf(bundle.getLong("nombre"));
+        mainTV.setText(nombre+" hola");
