@@ -1,4 +1,10 @@
 <resources>
+    <color name="a">#00FF00</color>
+    <color name="a2">#FF0011</color>
+    <color name="a3">#FF00FF</color>
+    <color name="a4">#033333</color>
+    <color name="a5">#FFF000</color>
+    <color name="a6">#000F22</color>
     <color name="black">#000000</color>
     <color name="md_theme_primary">#8F00D6</color>
     <color name="md_theme_onPrimary">#FFFFFF</color>

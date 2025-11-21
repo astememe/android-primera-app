@@ -8,8 +8,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.widget.ViewPager2;
+
+import com.astememe.actividad1.databinding.ActivityMainBinding;
+import com.astememe.actividad1.ui.frmanager.Paginador;
 
 public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,10 +29,19 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+
+        Paginador paginador = new Paginador(this, getSupportFragmentManager());
+        ViewPager viewPager = binding.coralViewPager;
+        viewPager.setAdapter(paginador);
+
+
         TextView saludo = findViewById(R.id.saludo);
 
-        Bundle bundle = getIntent().getExtras();
-        String nombre = String.valueOf((bundle.getString("nombre")));
-        saludo.setText(new String("Hola " + nombre));
+        //Bundle bundle = getIntent().getExtras();
+        //String nombre = String.valueOf((bundle.getString("nombre")));
+        //saludo.setText(new String("Hola " + nombre));
     }
 }

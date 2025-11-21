@@ -7,17 +7,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/coralViewPager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        >
+
+    </androidx.viewpager.widget.ViewPager>
+
     <TextView
+        app:layout_constraintBottom_toTopOf="@id/coralViewPager"
         android:id="@+id/saludo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:fontFamily="@font/maglisto"
-        android:textColor="@color/md_theme_tertiary"
+        android:textColor="@color/md_theme_onPrimary"
         android:textSize="30sp"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:background="@color/md_theme_primaryContainer"
+        android:text="Hola"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
