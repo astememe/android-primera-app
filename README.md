@@ -46,20 +46,24 @@ La pantalla principal ahora se divide en **dos columnas**:
 - Otra para las **tareas que el usuario ya ha completado**.
 
 <table>
-  <tr>
-    <td style="width:45%; text-align:center;">
-      <strong>Tareas activas</strong><br><br>
-      <img src="README_images/main_nuevo.PNG" alt="Pantalla principal con tareas" width="250">
-    </td>
+<tr>
+<td width="45%" style="text-align:center;">
+<strong>Tareas activas</strong><br><br>
+<img src="README_images/main_nuevo.PNG" width="250">
+</td>
 
-    <td style="width:2%; border-left: 2px solid #ccc;"></td>
+<td width="10">
+<img src="https://via.placeholder.com/2x300/cccccc/cccccc" width="2" height="300">
+</td>
 
-    <td style="width:45%; text-align:center;">
-      <strong>Tareas terminadas</strong><br><br>
-      <img src="README_images/main_nuevo_tareas_terminadas.PNG" alt="Fragmento de tareas terminadas" width="250">
-    </td>
-  </tr>
+<td width="45%" style="text-align:center;">
+<strong>Tareas terminadas</strong><br><br>
+<img src="README_images/main_nuevo_tareas_terminadas.PNG" width="250">
+</td>
+</tr>
 </table>
+
+
 
 ### **Header con saludo personalizado**
 
