@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
         TextView saludo = findViewById(R.id.saludo);
 
-        //Bundle bundle = getIntent().getExtras();
-        //String nombre = String.valueOf((bundle.getString("nombre")));
-        //saludo.setText(new String("Hola " + nombre));
+        Bundle bundle = getIntent().getExtras();
+        String nombre = String.valueOf((bundle.getString("nombre")));
+        saludo.setText(new String("Hola " + nombre));
     }
 }
