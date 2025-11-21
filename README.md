@@ -8,23 +8,21 @@ Incluye las siguientes pantallas:
 ### **SplashScreen**
 Pantalla de bienvenida con animación.
 <div style="text-align:center;">
-  <img src="README_images/splash.PNG" alt="Splash de la app" width="250">
+<img src="README_images/splash.PNG" alt="Splash de la app" width="250">
 </div>
 
 ### **RegistrarActivity**
 Formulario de registro con validaciones.
-
-<div style="display:flex; justify-content:center; gap:20px;">
-  <img src="README_images/registro_normal.PNG" alt="Registro normal" width="250">
-  <img src="README_images/registro_error.PNG" alt="Registro con error" width="250">
+<div style="text-align:center;">
+<img src="README_images/registro_normal.PNG" alt="Registro normal" width="250">
+<img src="README_images/registro_error.PNG" alt="Registro con error" width="250">
 </div>
 
 ### **LoginActivity**
 Pantalla de inicio de sesión con comprobación de datos guardados.
-
-<div style="display:flex; justify-content:center; gap:20px;">
-  <img src="README_images/login_normal.PNG" alt="Inicio de sesión normal" width="250">
-  <img src="README_images/login_error.PNG" alt="Inicio de sesión con error" width="250">
+<div style="text-align:center;">
+<img src="README_images/login_normal.PNG" alt="Inicio de sesión normal" width="250">
+<img src="README_images/login_error.PNG" alt="Inicio de sesión con error" width="250">
 </div>
 
 Proyecto desarrollado como práctica para la **creación de interfaces**, **validación de datos** y **manejo de sesiones** en Android.
@@ -45,7 +43,8 @@ La pantalla principal ahora se divide en **dos columnas**:
 - Una dedicada a las **tareas activas**.
 - Otra para las **tareas que el usuario ya ha completado**.
 
-<table>
+<div style="text-align:center;">
+<table style="margin:auto;">
 <tr>
 <td width="45%" style="text-align:center;">
 <strong>Tareas activas</strong><br><br>
@@ -62,8 +61,7 @@ La pantalla principal ahora se divide en **dos columnas**:
 </td>
 </tr>
 </table>
-
-
+</div>
 
 ### **Header con saludo personalizado**
 
