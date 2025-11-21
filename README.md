@@ -7,23 +7,26 @@ Incluye las siguientes pantallas:
 
 ### **SplashScreen**
 Pantalla de bienvenida con animación.
-<div style="text-align:center;">
-<img src="README_images/splash.PNG" alt="Splash de la app" width="250">
-</div>
+
+<p style="text-align:center;">
+  <img src="README_images/splash.PNG" alt="Splash de la app" width="250" style="display:block; margin:auto;">
+</p>
 
 ### **RegistrarActivity**
 Formulario de registro con validaciones.
-<div style="text-align:center;">
-<img src="README_images/registro_normal.PNG" alt="Registro normal" width="250">
-<img src="README_images/registro_error.PNG" alt="Registro con error" width="250">
-</div>
+
+<p style="text-align:center;">
+  <img src="README_images/registro_normal.PNG" alt="Registro normal" width="250" style="display:block; margin:auto;">
+  <img src="README_images/registro_error.PNG" alt="Registro con error" width="250" style="display:block; margin:auto;">
+</p>
 
 ### **LoginActivity**
 Pantalla de inicio de sesión con comprobación de datos guardados.
-<div style="text-align:center;">
-<img src="README_images/login_normal.PNG" alt="Inicio de sesión normal" width="250">
-<img src="README_images/login_error.PNG" alt="Inicio de sesión con error" width="250">
-</div>
+
+<p style="text-align:center;">
+  <img src="README_images/login_normal.PNG" alt="Inicio de sesión normal" width="250" style="display:block; margin:auto;">
+  <img src="README_images/login_error.PNG" alt="Inicio de sesión con error" width="250" style="display:block; margin:auto;">
+</p>
 
 Proyecto desarrollado como práctica para la **creación de interfaces**, **validación de datos** y **manejo de sesiones** en Android.
 
@@ -43,24 +46,18 @@ La pantalla principal ahora se divide en **dos columnas**:
 - Una dedicada a las **tareas activas**.
 - Otra para las **tareas que el usuario ya ha completado**.
 
+<div style="display:flex; justify-content:center; gap:20px;">
+
 <div style="text-align:center;">
-<table style="margin:auto;">
-<tr>
-<td width="45%" style="text-align:center;">
 <strong>Tareas activas</strong><br><br>
-<img src="README_images/main_nuevo.PNG" width="250">
-</td>
+<img src="README_images/main_nuevo.PNG" width="250" style="display:block; margin:auto;">
+</div>
 
-<td width="10">
-<img src="https://via.placeholder.com/2x300/cccccc/cccccc" width="2" height="300">
-</td>
-
-<td width="45%" style="text-align:center;">
+<div style="text-align:center;">
 <strong>Tareas terminadas</strong><br><br>
-<img src="README_images/main_nuevo_tareas_terminadas.PNG" width="250">
-</td>
-</tr>
-</table>
+<img src="README_images/main_nuevo_tareas_terminadas.PNG" width="250" style="display:block; margin:auto;">
+</div>
+
 </div>
 
 ### **Header con saludo personalizado**
